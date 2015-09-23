@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Release 10.1.03 Trace  (lin64)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+/afs/csail.mit.edu/proj/redsocs/Xilinx10.1/ISE/bin/lin64/unwrapped/trce -ise
+/afs/athena.mit.edu/user/e/z/ezhang94/Documents/6111_Sp15/Labs/L2/lab2_2/lab2_2.ise
+-intstyle ise -v 3 -s 4 -xml labkit labkit.ncd -o labkit.twr labkit.pcf -ucf
+labkit.ucf
+
+Design file:              labkit.ncd
+Physical constraint file: labkit.pcf
+Device,package,speed:     xc2v6000,bf957,-4 (PRODUCTION 1.121 2008-07-25, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+switch<0>      |user1<0>       |   19.464|
+switch<0>      |user1<1>       |   18.997|
+switch<0>      |user1<2>       |   19.446|
+switch<0>      |user1<3>       |   18.418|
+switch<0>      |user1<4>       |   18.532|
+switch<0>      |user1<5>       |   18.105|
+switch<0>      |user1<6>       |   19.223|
+switch<1>      |user1<0>       |   18.644|
+switch<1>      |user1<1>       |   19.098|
+switch<1>      |user1<2>       |   19.126|
+switch<1>      |user1<3>       |   18.451|
+switch<1>      |user1<4>       |   18.144|
+switch<1>      |user1<5>       |   18.138|
+switch<1>      |user1<6>       |   18.616|
+switch<2>      |user1<0>       |   19.448|
+switch<2>      |user1<1>       |   19.514|
+switch<2>      |user1<2>       |   19.611|
+switch<2>      |user1<3>       |   18.933|
+switch<2>      |user1<4>       |   18.699|
+switch<2>      |user1<5>       |   18.620|
+switch<2>      |user1<6>       |   18.691|
+switch<3>      |user1<0>       |   19.454|
+switch<3>      |user1<1>       |   18.885|
+switch<3>      |user1<2>       |   19.403|
+switch<3>      |user1<3>       |   18.236|
+switch<3>      |user1<4>       |   18.423|
+switch<3>      |user1<5>       |   17.923|
+switch<3>      |user1<6>       |   18.737|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Sep 23 12:59:47 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 332 MB
+
+
+
